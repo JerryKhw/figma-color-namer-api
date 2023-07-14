@@ -1,0 +1,29 @@
+{
+  "name": "@jerry/figma-color-namer-api",
+  "version": "1.0.0",
+  "description": "Figma Color Namer API",
+  "type": "module",
+  "main": "index.js",
+  "imports": {
+    "#util": "./util/index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": {
+    "name": "JERRY/JIHOON KIM",
+    "email": "hwjameshw@gmail.com",
+    "url": "https://github.com/JerryKhw"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "color-name-list": "^10.10.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nearest-color": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
