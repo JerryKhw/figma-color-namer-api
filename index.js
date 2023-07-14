@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
     } catch (e) {
         res.send(
             {
-                "message": "not_fount_color",
+                "message": "not_found_color",
             }
         );
     }
