@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { initEnv } from "#util";
 
 import nearestColor from 'nearest-color';
@@ -10,6 +11,8 @@ const nearest = nearestColor.from(colors);
 const env = initEnv();
 
 const app = express();
+
+app.use(cors());
 
 app.get("/", (req, res) => {
     if (!req.query.colors) {
