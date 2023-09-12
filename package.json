@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "color-name-list": "^10.11.0",
+    "color-name-list": "^10.12.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
